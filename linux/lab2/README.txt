@@ -7,7 +7,7 @@ Create the Shell Script:
 File: sript1.sh
 
 Content:
-
+```
 bash
 #!/bin/bash
 THRESHOLD=10
@@ -17,7 +17,7 @@ if [ $USAGE -gt $THRESHOLD ]; then
     echo "Disk space usage is above $THRESHOLD% on root file system" | mail -s "Disk Space Alert" user@example.com
 fi
 Make the Script Executable:
-
+```
 bash
 chmod +x /path/to/sript1.sh
 Install mailutils (if not already installed):
